@@ -1,0 +1,1 @@
+{"name":"Local: LRCVip","url":"/Users/prathameshpatil/Competetive Programming/LRCVip.py","tests":[{"id":1746456614395,"input":"3\n4\n1 20 51 9\n4\n5 5 5 5\n3\n1 2 2","output":"Yes\n2 2 1 1\nNo\nYes\n1 2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/prathameshpatil/Competetive Programming/LRCVip.py","group":"local","local":true}
