@@ -13,7 +13,7 @@ for _ in range(T):
             count = 0
     temp.append(count)
 
-    for i in temp:
+    for i in temp: 
         if i >= k:
             for j in range(k, i + 1):
                 ans += (i - j + 1)
