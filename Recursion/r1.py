@@ -12,11 +12,11 @@
 #     if i == n :
 #         print(i)
 #         return
-    
+
 #     recur(i+1,n)
 #     print(i)
-
 # recur(1,10)
+
 
 #Factorial of a number
 
@@ -26,4 +26,4 @@ def factorial(n:int):
     ans = n * factorial(n-1)
     return ans
 
-print(factorial())
+print(factorial(999))
