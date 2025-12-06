@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/Users/prathameshpatil/Competetive Programming/Contests/5/A.py","tests":[{"id":1757429136412,"input":"4\n3\n001\n4\n0110\n6\n110100\n6\n101011","output":"0\n1\n2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/prathameshpatil/Competetive Programming/Contests/5/A.py","group":"local","local":true}
