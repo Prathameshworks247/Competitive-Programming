@@ -19,6 +19,7 @@ def solve():
     
     print(*valid_k)
 
+
 t = int(input())
 for _ in range(t):
     solve()

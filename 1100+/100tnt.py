@@ -9,9 +9,8 @@ for _ in range(T):
     for i in range(n):
         summ += a[i]
         pref[i] += summ
-
     for k in range(1,n+1):
-        if n % i != 0:
+        if n % k != 0:
             continue
         start = k - 1
         mini =  pref[start]
@@ -19,7 +18,7 @@ for _ in range(T):
         for i in range(start + k, n, k):
             curr = pref[i] - pref[i - k]
             mini = min(mini, curr)
-            maxi = min(maxi, curr)
+            maxi = max(maxi, curr)
         ans = max(ans, maxi - mini)
         
     print(ans)
