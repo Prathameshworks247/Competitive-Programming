@@ -22,18 +22,19 @@ int main(){
     vector<string>grid2;
 
     for (int i = 0; i < M; i ++){
+        string row = grid[i];
+        string big;
+        for (char c: row){
+            big += string(K, c);
+        }
+        grid[i] = big;
         for (int j = 0; j < K; j ++){
             grid2.push_back(grid[i]);
         }
     }
 
-    for (int i = 0; i < grid2.size(); i ++){
-        string temp = grid2[i];
-        string temp2;
-        for (int i = 0; i < temp.size(); i++){
-            temp2.push_back(temp[i]*K);
-        }
-        grid2[i] = temp2;
+    for (int i = 0; i < M*K; i++){
+        cout << grid2[i]<< endl;
     }
 
 }
